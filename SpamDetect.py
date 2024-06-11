@@ -10,9 +10,9 @@ st.title('SMS Spam Classifier')
 st.write('Enter an SMS message to classify it as spam or ham.')
 
 
-st.write('''
+st.write("""
 This app predicts Spam or Ham Message
-''')
+""")
 
 # Input teks dari pengguna
 user_input = st.text_area('Enter SMS message here:')
